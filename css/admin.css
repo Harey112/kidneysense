@@ -1,0 +1,44 @@
+.widget{
+    border: 1px solid #80808057;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: -3px 4px 10px -3px gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+
+button{
+    padding: 7px 15px;
+    background-color: rgb(121, 179, 255);
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    margin: 5px;
+}
+
+
+button:active{
+    background-color: rgb(228, 228, 228);
+}
+
+.delete_btn{
+    padding: 3px 8px;
+    font-size: small;
+    font-weight: 500;
+    background-color: #ff7373;
+}
+
+table, th, td{
+    border: 1px solid #837c7c;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: small;
+    font-weight: 400;
+    width: max-content;
+    padding: 5px;
+}

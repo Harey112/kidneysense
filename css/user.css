@@ -1,0 +1,72 @@
+/*Poppins Font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*Nunito Font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+
+
+.operation{
+    width: max-content;
+    max-height: max-content;
+    padding: 2%;
+    background-color: #3787ff;
+    color: whitesmoke;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button{
+    padding: 7px 15px;
+    background-color: rgb(121, 179, 255);
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    margin: 5px;
+}
+
+
+button:active{
+    background-color: rgb(228, 228, 228);
+}
+
+
+.edit_btn{
+    background-color: #47df47;
+}
+
+
+.delete_btn{
+    background-color: #ff7373;
+}
+
+
+table{
+    width: 98%;
+}
+
+table, th, td{
+    border: 1px solid #837c7c;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: small;
+    font-weight: 400;
+    width: max-content;
+    padding: 5px;
+}
+
+
+input , select {
+    width: 90%;
+}
+
+
